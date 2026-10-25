@@ -1,0 +1,71 @@
+:root {
+  --bg: #f6f8f6;
+  --panel: #fff;
+  --ink: #182923;
+  --muted: #7b8982;
+  --line: #e7ece8;
+  --green: #177b61;
+  --green2: #dff4eb;
+  --mint: #bdebd8;
+  --orange: #f4a261;
+  --red: #c75b54;
+  --shadow: 0 10px 35px #203d2a0a;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+h1,
+h2,
+h3,
+.brand {
+  font-family: Manrope, sans-serif;
+  letter-spacing: -0.04em;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+.muted {
+  color: var(--muted);
+}
+.tiny {
+  font-size: 12px;
+}
+.boot {
+  padding: 40px;
+  font: 800 32px Manrope;
+}
+.boot span,
+.brand span {
+  color: var(--green);
+}

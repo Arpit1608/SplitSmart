@@ -1,0 +1,7 @@
+node_modules/
+client/dist/
+.env
+.DS_Store
+# local database - never commit real user data
+server/data/*.json
+server/data/*.tmp

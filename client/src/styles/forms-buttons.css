@@ -1,0 +1,76 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+.field label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #52635a;
+}
+.field input,
+.field select,
+.field textarea,
+.search-input {
+  border: 1px solid #dfe6e0;
+  border-radius: 10px;
+  padding: 12px 13px;
+  background: #fff;
+  outline: none;
+  color: var(--ink);
+  width: 100%;
+  transition: 0.2s;
+}
+.field input:focus,
+.field select:focus,
+.field textarea:focus,
+.search-input:focus {
+  border-color: #60b59a;
+  box-shadow: 0 0 0 3px #177b6114;
+}
+.btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 11px 15px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.2s;
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn-primary {
+  background: var(--green);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #116b53;
+}
+.btn-soft {
+  background: var(--green2);
+  color: var(--green);
+}
+.btn-outline {
+  background: white;
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+.btn-danger {
+  background: #fff0ef;
+  color: var(--red);
+}
+.btn-full {
+  width: 100%;
+  padding: 13px;
+}
+.link-btn {
+  border: 0;
+  background: none;
+  color: var(--green);
+  font-weight: 700;
+  padding: 0;
+}

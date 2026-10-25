@@ -1,0 +1,17 @@
+{
+  "name": "splitsmart-server",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SplitSmart API server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
